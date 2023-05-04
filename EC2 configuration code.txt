@@ -1,0 +1,2 @@
+===== EC2 Commands for Jenkins ========
+aws ec2 run-instances  --image-id ami-0756fbca465a59a30 --count 1 --instance-type t2.micro --key-name EC2Key --subnet-id subnet-7126203b --region us-east-1
